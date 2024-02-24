@@ -1,0 +1,25 @@
+{
+    "name": "bamboo-theme",
+    "publisher": "Bamboooz",
+    "f": "",
+    "displayName": "Bamboo Theme",
+    "description": "Bamboooz's vscode theme, a more pastely alternative for GitHub Dark theme.",
+    "version": "0.0.1",
+    "icon": "assets/logo.png",
+    "repository": { "url": "https://github.com/Bamboooz/bamboo-theme" },
+    "engines": {
+        "vscode": "^1.86.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bamboo Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bamboo-theme.json"
+            }
+        ]
+    }
+}
